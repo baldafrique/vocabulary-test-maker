@@ -67,7 +67,13 @@ public class Main {
 		
 		return arrayList;
 	}
-
+	
+	private static void clear() throws IOException {
+		File file = new File("data");
+		FileWriter fileWriter = new FileWriter(file);
+		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+		bufferedWriter.close();
+	}
 	
 	public static void main(String[] args) throws IOException {
 		Scanner scanner = new Scanner(System.in);
@@ -83,6 +89,9 @@ public class Main {
 				break;
 			case "test":
 				test(scanner);
+				break;
+			case "clear":
+				clear();
 				break;
 			}
 			
