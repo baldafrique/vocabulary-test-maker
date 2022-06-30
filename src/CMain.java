@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class CMain {
 	
 	private static void input(Scanner scanner) throws IOException {
 		File file = new File("data");
@@ -52,7 +52,7 @@ public class Main {
 		
 	}
 	
-	private static ArrayList<String> read() throws IOException {
+	protected static ArrayList<String> read() throws IOException {
 		ArrayList<String> arrayList = new ArrayList<>();
 		FileReader fileReader = new FileReader("data");
 		BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -64,7 +64,6 @@ public class Main {
 		}
 		
 		bufferedReader.close();
-		
 		return arrayList;
 	}
 	
