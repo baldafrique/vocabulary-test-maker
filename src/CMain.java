@@ -36,8 +36,8 @@ public class CMain {
 			Random random = new Random();
 			int index = random.nextInt(arrayList.size());
 			String data = arrayList.get(index);
-			String word = data.split(" ")[0];
-			String meaning = data.split(" ")[1];
+			String word = data.split(":")[0];
+			String meaning = data.split(":")[1];
 			
 			System.out.print("$ " + word + " : ");
 			String answer = scanner.nextLine();

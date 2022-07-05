@@ -47,8 +47,8 @@ public class GTest extends CMain implements ActionListener {
 		if (arrayList.size() != 0) {
 			index = random.nextInt(arrayList.size());
 			String data = arrayList.get(index);
-			word = data.split(" ")[0];
-			meaning = data.split(" ")[1];
+			word = data.split(":")[0];
+			meaning = data.split(":")[1];
 			label.setText(word);
 		}
 		else {

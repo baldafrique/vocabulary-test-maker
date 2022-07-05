@@ -1,85 +1,136 @@
-opening 공석
-reference 추천서
-position 일자리
-eligible 자격있는
-condition 조건
-managerial 관리의
-proficiency 숙달
-specialize 전공하다
-apprehensive 걱정하는
-entitle 자격을주다
-payroll 임금대장
-occupation 직업
-attire 복장
-code 규범
-severely 엄격하게
-refrain 자제하다
-revise 수정하다
-form 종류
-arrangement 준비
-mandate 명령하다
-drastically 심하게
-act 법령
-authorize 인가하다
-abolish 폐지하다
-enforce 집행하다
-legislation 법률
-corporation 주식회사
-demanding 요구가많은
-division 부서
-manage 경영하다
-perform 행하다
-monitor 감독하다
-extension 연장
-electronically 컴퓨터로
-delegate 위임하다
-attentively 주의깊게
-draw 끌다
-revision 수정
-reluctantly 마지못해
-acquaint 숙지시키다
-convey 전달하다
-headquarters 본부
-oversee 감독하다
-involved 관련된
-lax 느슨한
-procrastinate 미루다
-manner 방식
-conduct 수행하다
-personnel 직원
-direct 길을안내하다
-confidential 기밀의
-formal 격식을갖춘
-coordinate 조정하다
-directory 주소록
-accountable 책임이있는
-transform 바꾸다
-contrary 반대
-disturbing 충격적인
-timely 시기적절한
-realistically 현실적으로
-implement 시행하다
-feedback 의견
-outline 개요
-compile 편집하다
-subsequent 차후의
-expertise 전문지식
-compliance 준수
-advisable 바람직한
-improvise 즉흥적으로하다
-alumni 동창생들
-admission 입장
-banquet 연회
-required 필수의
-succeed 성공하다
-fund-raising 모금
-resume 재개하다
-issue 호
-specifically 명확하게
-commit 헌신하다
-note 주목하다
-manuscript 원고
-lend 빌려주다
-advocate 옹호자
-defy 저항하다
-showing 상영
+opening:공석
+reference:추천서
+position:일자리
+eligible:자격이 있는
+condition:조건
+managerial:관리의
+proficiency:숙달
+specialize:전공하다
+apprehensive:걱정하는
+entitle:자격을 주다
+payroll:임금대장
+occupation:직업
+attire:복장
+code:규범
+severely:엄격하게
+refrain:자제하다
+revise:수정하다
+form:종류
+arrangement:준비
+mandate:명령하다
+drastically:심하게
+act:법령
+authorize:인가하다
+abolish:폐지하다
+enforce:집행하다
+legislation:법률
+corporation:주식회사
+demanding:요구가 많은
+division:부서
+manage:경영하다
+perform:행하다
+monitor:감독하다
+extension:연장
+electronically:컴퓨터로
+delegate:위임하다
+attentively:주의깊게
+draw:끌다
+revision:수정
+reluctantly:마지못해
+acquaint:숙지시키다
+convey:전달하다
+headquarters:본부
+oversee:감독하다
+involved:관련된
+lax:느슨한
+procrastinate:미루다
+manner:방식
+conduct:수행하다
+personnel:직원
+direct:길을 안내하다
+confidential:기밀의
+formal:격식을 갖춘
+coordinate:조정하다
+directory:주소록
+accountable:책임이 있는
+transform:바꾸다
+contrary:반대
+disturbing:충격적인
+timely:시기적절한
+realistically:현실적으로
+implement:시행하다
+feedback:의견
+outline:개요
+compile:편집하다
+subsequent:차후의
+expertise:전문지식
+compliance:준수
+advisable:바람직한
+improvise:즉흥적으로 하다
+alumni:동창생들
+admission:입장
+banquet:연회
+required:필수의
+succeed:성공하다
+fund-raising:모금
+resume:재개하다
+issue:호
+specifically:명확하게
+commit:헌신하다
+note:주목하다
+manuscript:원고
+lend:빌려주다
+advocate:옹호자
+defy:저항하다
+showing:상영
+respondent:응답자
+monopoly:독점
+do one's utmost:전력을 다하다
+advanced:고급의
+demonstration:설명
+examin:조사하다
+closely:면밀히
+cooperate:협력하다
+publicize:공표하다
+affect:영향을 미치다
+probable:개연성이 높은
+seasonal:계절의
+mounting:증가하는
+reflective:반영하는
+marginal:약간의
+contemporary:동시대의
+necessarily:반드시
+resolve:해결하다
+intensify:강화하다
+favorably:호의적으로
+cover:포함하다
+disregard:무시하다
+mastermind:입안자
+stagnant:침체된
+brisk:활발한
+assert:단언하다
+remain:계속 ~한 상태이다
+costly:비용이 많이 드는
+drastic:과감한
+prospect:전망
+indicator:지표
+likely:~할 것 같은
+director:임원
+fairly:상당히
+implication:영향
+wane:감소하다
+prosperity:번영
+depression:불황
+dwindle:줄어들다
+impede:저해하다
+adversity:역경
+installment:할부
+authentic:진정한
+charge:요금
+warranty:보증
+spare:아끼다
+clearance:정리
+apply:적용하다
+redeemable:교환할 수 있는
+fabric:천
+valid:유효한
