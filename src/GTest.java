@@ -44,16 +44,26 @@ public class GTest extends CMain implements ActionListener {
 	}
 	
 	public void readLine() {
-		index = random.nextInt(arrayList.size());
-		String data = arrayList.get(index);
-		word = data.split(" ")[0];
-		meaning = data.split(" ")[1];
-		label.setText(word);
+		if (arrayList.size() != 0) {
+			index = random.nextInt(arrayList.size());
+			String data = arrayList.get(index);
+			word = data.split(" ")[0];
+			meaning = data.split(" ")[1];
+			label.setText(word);
+		}
+		else {
+			System.exit(0);
+		}
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (textField.getText().equals(meaning)) {
+			arrayList.remove(index);
+			readLine();
+		}
+		else if (textField.getText().equals("skip")) {
+			System.out.println(word + " " + meaning);
 			arrayList.remove(index);
 			readLine();
 		}
