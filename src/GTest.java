@@ -5,11 +5,13 @@ import java.awt.Label;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class GTest extends CMain implements ActionListener {
+public class GTest extends CMain implements ActionListener, WindowListener {
 	Frame testFrame;
 	Label label;
 	TextField textField;
@@ -41,6 +43,7 @@ public class GTest extends CMain implements ActionListener {
 		testFrame.setSize(300, 100);
 		testFrame.setLocationRelativeTo(null);
 		testFrame.setVisible(true);
+		testFrame.addWindowListener(this);
 	}
 	
 	public void readLine() {
@@ -70,5 +73,28 @@ public class GTest extends CMain implements ActionListener {
 		
 		textField.setText("");
 	}
+	
+	@Override
+	public void windowOpened(WindowEvent e) {}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		System.exit(0);
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {}
+
+	@Override
+	public void windowIconified(WindowEvent e) {}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {}
+
+	@Override
+	public void windowActivated(WindowEvent e) {}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {}
 
 }

@@ -5,12 +5,14 @@ import java.awt.Image;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GInput implements ActionListener {
+public class GInput implements ActionListener, WindowListener {
 	Frame inputFrame;
 	TextField textField;
 	Button button;
@@ -38,6 +40,7 @@ public class GInput implements ActionListener {
 		inputFrame.setSize(300, 100);
 		inputFrame.setLocationRelativeTo(null);
 		inputFrame.setVisible(true);
+		inputFrame.addWindowListener(this);
 	}
 
 	@Override
@@ -56,4 +59,27 @@ public class GInput implements ActionListener {
 			e1.printStackTrace();
 		}
 	}
+	
+	@Override
+	public void windowOpened(WindowEvent e) {}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		System.exit(0);
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {}
+
+	@Override
+	public void windowIconified(WindowEvent e) {}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {}
+
+	@Override
+	public void windowActivated(WindowEvent e) {}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {}
 }
